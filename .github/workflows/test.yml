@@ -28,4 +28,4 @@ jobs:
       run: dotnet build --configuration Release
 
     - name: Run tests
-      run: dotnet test --no-restore --configuration Release --filter FullyQualifiedName~SpecFlowProject11.Tests
+      run: dotnet vstest C:\Users\HAJABDALLAHOussama\Desktop\Myproject\SpecFlowProject11\SpecFlowProject11\bin\Debug\net48\SpecFlowProject11.dll
